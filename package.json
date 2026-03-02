@@ -1,7 +1,9 @@
+
 {
   "name": "yuvrajos",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Gamerater.github.io/YuvrajOS-Portfolio-",
   "type": "module",
   "scripts": {
     "dev": "vite",
