@@ -16,7 +16,7 @@ const LoadingFallback = () => (
 export const Dock: React.FC = () => {
   const openWindow = useOSStore((state) => state.openWindow);
 
-  const launchApp = (id: string, title: string, Component: React.LazyExoticComponent<any>) => {
+  const launchApp = (id: string, title: string, Component: React.LazyExoticComponent<React.ComponentType<unknown>>) => {
     openWindow({
       id,
       title,
