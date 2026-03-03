@@ -1,0 +1,6 @@
+{
+  "id": "drone-landing",
+  "title": "Autonomous Drone Systems",
+  "description": "Case study on engineering challenges and system design for autonomous drone landings on moving trains. Focuses on predictive tracking and computer vision.",
+  "tags": ["Case Study", "System Design", "Engineering"]
+}
