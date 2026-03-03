@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import glsl from 'vite-plugin-glsl' // Add this
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: '/YuvrajOS-Portfolio-/', // Keeping your GitHub Pages base path!
+  plugins: [react(), tailwindcss(), glsl()], // Add it to the plugins array
+  base: '/YuvrajOS-Portfolio-/', 
 })
