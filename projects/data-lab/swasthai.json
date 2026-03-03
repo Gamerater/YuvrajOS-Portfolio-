@@ -1,0 +1,7 @@
+{
+  "id": "swasthai",
+  "title": "SwasthAI",
+  "description": "An AI-driven public health chatbot developed for the Smart India Hackathon. Designed to streamline medical querying and provide scalable health insights.",
+  "tags": ["Python", "AI", "SIH"],
+  "github": "https://github.com/Gamerater"
+}
